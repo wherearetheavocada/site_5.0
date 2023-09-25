@@ -28,9 +28,11 @@
   /* align-items: stretch; */
   width: 113.8;
   text-align: center;
+  transition: 0.3s;
 }
 .navigation-list li:hover {
   background: rgb(235, 71, 71);
+  transition: 0.3s;
 }
 .navigation-list__item {
   width: 114px;
@@ -149,7 +151,9 @@
   height: 70px;
   margin: 35px 15px;
 }
-
+.bannerSecond-section{
+margin-top: 50px;
+}
 .container-bannerSecond{
  width: 1510px;
 margin: 0 auto;
@@ -158,7 +162,7 @@ margin: 0 auto;
 background-image: url(../img/image-banner2.png);
 background-repeat: no-repeat;
 background-position: center;
-/* background-size: contain; */
+background-size: contain;
 padding-bottom: 50px;
 }
 
@@ -193,13 +197,18 @@ padding-bottom: 50px;
 .bannerSecond-download a {
     color: #ffffff;
   }
+  footer{
+    margin-top: 50px;
+  }
 .conteiner-footer{
+  margin: 0 auto;
+  width: 1510px;
     background: #000000;
     text-align: center;
+    margin: 0 auto;
 }
 
 .footer-icons{
-    margin-top: 35px;
     margin-bottom: 28px;
     padding-top: 35px;
 }
@@ -207,6 +216,7 @@ padding-bottom: 50px;
     margin: 0 16px;
 
 }
+
 .footer-text{
 color: rgba(255, 255, 255, 0.50);
  font-size: 18px;
@@ -214,3 +224,4 @@ color: rgba(255, 255, 255, 0.50);
  font-weight: 400;
  word-wrap: break-word
 }
+
