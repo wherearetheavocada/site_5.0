@@ -50,6 +50,7 @@
   margin: 0 auto;
 }
 .banner {
+  background-color: rgba(0, 0, 0, 0.5);
   background-image: url(../img/image.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,6 +58,7 @@
   padding-top: 231px;
   display: flex;
   justify-content: space-between;
+  background-blend-mode: overlay;
 }
 
 .banner-form {
@@ -151,6 +153,10 @@
   height: 70px;
   margin: 35px 15px;
 }
+.icon:hover{
+background: rgb(214, 209, 209);
+transition: 0.3s;
+}
 .bannerSecond-section{
 margin-top: 50px;
 }
@@ -164,6 +170,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: contain;
 padding-bottom: 50px;
+background-blend-mode: overlay;
 }
 
 .bannerSecond-title{
