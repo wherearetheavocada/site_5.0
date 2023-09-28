@@ -142,8 +142,7 @@ margin-bottom: 73px;
   width: 370px;
   outline: none;
   border: none;
-  padding-bottom: 16px;
-  margin-bottom: 33px;
+  padding-bottom: 19px;
   margin-left: 50px;
 }
 #banner-name{
@@ -153,6 +152,7 @@ margin-bottom: 73px;
    font-weight: 400;
    word-wrap: break-word;
   border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 33px;
   }
   #banner-pass{
   color: #BDBDBD;
@@ -163,13 +163,13 @@ margin-bottom: 73px;
   border-bottom: 1px solid #BDBDBD;
   }
   #banner-email{
-  
   color: #BDBDBD;
    font-size: 14px;
    font-family: Open Sans;
    font-weight: 400;
    word-wrap: break-word;
   border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 33px;
   }
 
   .banner-btn{
@@ -215,15 +215,10 @@ margin-bottom: 73px;
 .social-icons__svg{
   margin-top: 33px;
 }
-.icon {
-  width: 70px;
-  height: 70px;
-  margin: 35px 15px;
-}
-.icon:hover{
-background: rgb(214, 209, 209);
-transition: 0.3s;
-}
+
+svg path:hover{
+    fill:#19ff04
+  }
 
 /* banner */
 
@@ -335,6 +330,7 @@ color: #BDBDBD;
  font-weight: 400;
  word-wrap: break-word;
 border-bottom: 1px solid #BDBDBD;
+margin-bottom: 50px;
 }
 #contact-pass{
 color: #BDBDBD;
@@ -343,6 +339,7 @@ font-family: Open Sans;
 font-weight: 400;
 word-wrap: break-word;
 border-bottom: 1px solid #BDBDBD;
+margin-bottom: 50px;
 }
 #contact-email{
 
@@ -358,7 +355,6 @@ border-bottom: 1px solid #BDBDBD;
   outline: none;
   border: none;
   padding-bottom: 16px;
-  margin-bottom: 50px;
 }
 .my-form{
   width: calc((100% - 30px) / 2);
@@ -367,6 +363,9 @@ border-bottom: 1px solid #BDBDBD;
 .form-group textarea{
   outline: none;
   border: none;
+  width: 100%; /* Ширина поля в процентах */
+  height: 207px; /* Высота поля в пикселах */
+  resize: none;
 }
 #contact-text{
   color: #BDBDBD;
