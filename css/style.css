@@ -174,14 +174,17 @@ margin-bottom: 73px;
 
   .banner-btn{
     height: 58px;
+    width: 100%;
     background: #EC7979;
     margin: 0 auto;
     text-align: center;
     line-height: 58px;
-  }
-  .banner-btn a {
+    border: none;
     color: #ffffff;
   }
+ .banner-btn:hover{
+  background: red;
+ }
 /* social */
 
 .social-section{
@@ -217,7 +220,8 @@ margin-bottom: 73px;
 }
 
 svg path:hover{
-    fill:#19ff04
+    fill:#19ff04;
+    transition: 3s;
   }
 
 /* banner */
@@ -375,7 +379,9 @@ border-bottom: 1px solid #BDBDBD;
    word-wrap: break-word;
    border-bottom: 1px solid #BDBDBD;
 }
-
+.cont-btn{
+  text-align: center;
+}
 .contact-btn{
   width: 370px;
   height: 58px;
@@ -383,9 +389,10 @@ border-bottom: 1px solid #BDBDBD;
   margin: 0 auto;
   text-align: center;
   line-height: 58px;
-}
-.contact-btn a {
   color: #ffffff;
+}
+.contact-btn:hover{
+  background: red;
 }
 
 
