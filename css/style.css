@@ -789,7 +789,7 @@ footer {
   margin-top: 28px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .navigation {
     max-width: 566px;
     margin-right: 20px;
@@ -845,7 +845,7 @@ footer {
   }
   .social-icons__svg {
     margin-top: 10px;
-    max-width: 550px;
+    max-width: 5500px;
   }
 }
 @media (max-width: 1024px) {
@@ -1113,4 +1113,4 @@ footer {
   .tab-center__right {
     display: none;
   }
-}
+} */
